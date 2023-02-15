@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace SeleniumUiTests
+namespace SeleniumUiTest
 {
     [TestClass]
     public class EmployeesUiTests
@@ -54,7 +54,7 @@ namespace SeleniumUiTests
             var fileName = $"{fullname}.jpg";
             screenshot.SaveAsFile(fileName, ScreenshotImageFormat.Jpeg);
             TestContext.AddResultFile(fileName);
-            
+
             // Act
             _browserDriver.FindElement(By.Id("SubmitButton")).Click();
             //_browserDriver.FindElement(By.CssSelector("btn btn-primary")).Click();
