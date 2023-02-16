@@ -7,8 +7,6 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WebApp.Database", "WebApp.D
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureResourceGroupDeployment", "AzureResourceGroupDeployment\AzureResourceGroupDeployment.deployproj", "{BFCF79CD-CFBD-4E44-A79F-B5C0E95F0F49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumUiTest", "SeleniumUiTest\SeleniumUiTest.csproj", "{655A2079-A99C-4539-99CC-FD772A0B10BA}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp\WebApp.csproj", "{F3673017-A055-458C-9D46-A7BAAB662E1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.UnitTest", "WebApp.UnitTest\WebApp.UnitTest.csproj", "{5830C5AE-952E-48BF-8237-2AE5FEB18EBE}"

@@ -153,12 +153,6 @@ stages:
       inputs:
         restoreSolution: WebAppWithDatabase.sln
 
-    - task: MSBuild@1
-      displayName: Build SeleniumUiTest.csproj
-      inputs:
-        solution: SeleniumUiTest/SeleniumUiTest.csproj
-        msbuildArguments: '/p:OutDir=$(Build.ArtifactStagingDirectory)'
-
     - task: PublishBuildArtifacts@1
       displayName: 'Publish Artifact: UI-Test'
       inputs:
